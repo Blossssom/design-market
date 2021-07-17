@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>SaltCoin</title>
+</head>
+
+<body>
+    <h1>Contract example</h1>
+    <button id="metaMaskButton">Connect to MetaMask</button><br>
+    Accounts: <span id="accountsDiv"></span><br>
+    ETH: <span id="accountsETH"></span><br>
+    SLT: <span id="accountsSLT"></span><br>
+    NFT: <span id="accountsNFT"></span><br>
+    <p>==========================================</p>
+    Number : <input type="text" id="patentNumber" value="12345"><br>
+    Type : <input type="text" id="salesType" value="1"> (0:SELL, 1:AUCTION)<br>
+    Price : <input type="text" id="patentPrice" value="100"><br>
+    Deadline : <input type="text" id="patentDeadline" value="0"><span id="currentTime"></span></p>
+    <script> document.getElementById("currentTime").innerHTML = " Time: " + (Math.round(Date.now() / 1000)).toString();</script>
+    <button id="registerButton">Register Patent</button>
+
+    <p>==========================================</p>
+    Total patents : <span id="patentTotal">0</span><br>
+    Index : <input type="text" id="patentIndex" value="0">
+    <button id="searchButton">Get Patent</button><br>
+    Number : <span id="patentNumber2"></span><br>
+    Type : <span id="salesType2"></span><br>
+    Price : <span id="patentPrice2"></span><br>
+    Deadline : <span id="patentDeadline2"></span><br>
+    Owner : <span id="patentOwner"></span><br>
+    Status : <span id="salesStatus"></span><br>
+    Last Buyer : <span id="lastBuyer"></span><br>
+    Last Price : <span id="lastPrice"></span><br>
+
+    <p>==========================================</p>
+    Amount : <input type="text" id="buyAmount" value="0">
+    <button id="buyButton">Buy Patent</button><br>
+    Buyer : <span id="balanceBuyer"></span><br>
+    Owner : <span id="balanceOwner"></span><br>
+    Market : <span id="balanceMarket"></span><br>
+
+    <p>==========================================</p>
+    <button id="deleteButton">Delete Patent</button>
+    <button id="finalizeButton">Finalize Patent</button>
+
+    <p>==========================================</p>
+    Event History<br>
+    <textarea id="eventHistory" rows="10" cols="80"></textarea>
+
+    <script type="module" src="index.js" defer></script>
+</body>
+
+</html>

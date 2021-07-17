@@ -1,0 +1,27 @@
+{    
+    "items" : [
+        {
+            "title" : "인공신경망 기반 지진해일 예측 시스템",
+            "price" : "168 plt",
+            "img" : "http://kpat.kipris.or.kr/kpat/remoteFile.do?method=bigFrontDraw&applno=1020190136040"
+        },
+
+        {
+            "title" : "미세 먼지 분석 방법 및 이를 수행하기 위한 장치",
+            "price" : "168 plt",
+            "img" : "http://kpat.kipris.or.kr/kpat/remoteFile.do?method=bigFrontDraw&applno=1020180021631"
+        },
+
+        {
+            "title" : "유로폼 고정 장치",
+            "price" : "168 plt",
+            "img" : "http://kpat.kipris.or.kr/kpat/remoteFile.do?method=bigFrontDraw&applno=1020190148185"
+        },
+
+        {
+            "title" : "치아 세정 및 살균장치",
+            "price" : "183 plt",
+            "img" : "http://kpat.kipris.or.kr/kpat/remoteFile.do?method=bigFrontDraw&applno=1020150172994"
+        }
+    ]
+}
