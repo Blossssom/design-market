@@ -1535,6 +1535,19 @@ ul > .wallet-icon:last-child
 }
 
 
+.mp-profile__bg
+{
+    height: 16rem;
+    display: flex;
+}
+
+
+.mp-profile__info
+{
+    
+}
+
+
 @keyframes appear {
     from {
       opacity: 0;
